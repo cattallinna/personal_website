@@ -4,62 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My First Portfolio Project</title>
-  <style>
-    /* Basic page styles (optional, you can expand) */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px;
-      background-color: #f0f0f0;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 15px;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: rgb(102, 121, 169);
-    }
-
-    section {
-      padding: 20px;
-    }
-
-    .project-card {
-      margin-bottom: 20px;
-    }
-
-    /* ✅ Send button styles with hover effect */
-    .send-button {
-      background-color: transparent;
-      border: 2px solid rgb(161, 193, 209);
-      padding: 10px 20px;
-      color: rgb(161, 193, 209);
-      font-size: 16px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease, color 0.3s ease;
-    }
-
-    .send-button:hover {
-      background-color: rgb(161, 193, 209);
-      color: white;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
 
   <header>
     <nav>
@@ -72,15 +20,18 @@
     </nav>
   </header>
 
+
   <section id="hero">
     <h2>Hi, I'm Catalina</h2>
     <p>Follow your dreams.</p>
   </section>
 
+
   <section id="about">
     <h2>About Me</h2>
     <p>My name is Catalina. I like to play the viola.</p>
   </section>
+
 
   <section id="projects">
     <h2>Projects</h2>
@@ -88,6 +39,7 @@
       <h3>My Portfolio Project</h3>
       <p>For this project, I'm making my first portfolio.</p>
     </div>
+    <!-- Add more project cards -->
     <div class="project-card">
       <h3>My Cat Picture Project</h3>
       <p>My Cat Picture Project was my final project for Pygame. It includes using the arrow keys to make different images of cats appear in the pygame window.</p>
@@ -95,19 +47,22 @@
     </div>
   </section>
 
+
   <section id="contact">
     <h2>Contact Me</h2>
     <form id="contact-form">
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
       <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="send-button">Send</button>
+      <button type="submit">Send</button>
     </form>
   </section>
+
 
   <footer>
     <p>&copy; 2025 Catalina</p>
   </footer>
+
 
   <script src="script.js"></script>
 </body>
