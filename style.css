@@ -10,6 +10,10 @@ body {
   color: rgb(53, 83, 109);
 }
 
+h2, h3 {
+  color: rgb(10, 42, 69);
+}
+
 header {
   background: #222;
   color: #fff;
@@ -61,7 +65,7 @@ input, textarea, button {
 }
 
 button {
-  background-color: #333;
+  background-color: rgb(6, 35, 54);
   color: #fff;
   border: none;
   cursor: pointer;
